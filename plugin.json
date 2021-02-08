@@ -1,0 +1,10 @@
+{
+  "prefix": "licex",
+  "short_name": "Licensing wpmembership",
+  "whmcs": {
+    "url": "https://licensepartner.creative24.org/",
+    "product_key": "fe8c094bbdcc38e0c22ac684c84deea7", 
+    "local_key_expire_days": 15,
+    "allow_check_fail_days": 15
+  }
+}
