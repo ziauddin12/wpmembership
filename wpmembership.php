@@ -65,4 +65,4 @@ public $statusmESSAGE;
 
 }
 
-new Licensing_Addon_Example_Plugin();
+//new Licensing_Addon_Example_Plugin();
