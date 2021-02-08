@@ -88,7 +88,7 @@ class WHMCS_License extends ToolKit
     }
 
     // If local key is invalid or expired, recheck
-    if( !$local_keyvalid ) {
+   // if( !$local_keyvalid ) {
 
       $responseCode = 0;
       $postfields = array(
@@ -200,7 +200,7 @@ class WHMCS_License extends ToolKit
 
       $results['remotecheck'] = true;
 
-    }
+    //}
 
     unset( $postfields, $data, $matches, $checkdate, $usersip, $md5hash );
     return $results;
